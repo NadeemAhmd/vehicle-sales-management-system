@@ -1,0 +1,38 @@
+@media (min-width: 768px) {
+	.sidebar {
+		display: block;
+  		position: fixed;
+		top: 50px;
+		bottom: 0;
+		left: 0;
+		z-index: 1000;
+		display: block;
+		margin: 0;
+		padding: 0;
+		overflow-x: hidden;
+		overflow-y: auto; 
+		background-color: #2D2D2D!important;
+		box-shadow: 1px 0px 10px rgba(0, 0, 0, .05);
+	}
+	.navbar-header {
+		width: 100%;
+	}
+}
+table.db-table 	
+	{ 
+	border-right:1px solid #ccc; 
+	border-bottom:1px solid #ccc; 
+	}
+table.db-table th	
+	{ 
+	background:#eee; 
+	padding:5px; 
+	border-left:1px solid #ccc;
+	border-top:1px solid #ccc;
+	}
+table.db-table td
+	{ 
+	padding:5px;
+	border-left:1px solid #ccc; 
+	border-top:1px solid #ccc;
+	}
